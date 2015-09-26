@@ -1,0 +1,65 @@
+﻿<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="main">
+            <div class="header">
+
+            </div>
+            <div class="content">
+                <div class="right"></div>
+                <div class="right"></div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+========================================================
+body {
+}
+
+#main {
+    background-color: #ccc;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.content {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.right {
+    width: 350px;
+    height: 200px;
+    background-color: #808080;
+    float: right;
+    margin: 0 10px;
+}
+
+.left {
+    width: 350px;
+    height: 200px;
+    background-color: blue;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #ff6a00;
+    clear: both;
+}
